@@ -2,9 +2,7 @@ import numpy as np
 import os
 #maybe only import one function
 import operations
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
-import tensorflow as tf
-print("TensorFlow version:", tf. __version__) 
+
 from matplotlib import pyplot as plt
 from sklearn.model_selection import train_test_split
 from skimage import io, transform
